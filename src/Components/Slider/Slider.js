@@ -145,13 +145,13 @@ function Slider() {
             <div className={style.slider_flex1}>
                 <div className={style.slider_item_1} onClick={onClickFirst}>
                     <div className={styleFirstItem}> {firstLeftDescription}</div>
-                    <img src={item_1} alt="#" />
+                    <div className={style.img_position}> <img src={item_1} alt="#" /></div>
                     <div className={style.plus}><img src={plus} alt="#"/></div>
 
                 </div>
                 <div className={style.slider_item_2} onClick={onClickSecond}>
                     <div className={styleSecondItem}> {SecondLeftDescription}</div>
-                    <img src={item_2} alt="#"/>
+                    <div className={style.img_position}>   <img src={item_2} alt="#"/></div>
 
                     <div className={style.plus}><img src={plus} alt="#"/></div>
 
@@ -162,7 +162,7 @@ function Slider() {
                 <div className={style.slider_item_3} onClick={onClickThird}>
 
                     <div className={styleThirdItem}> {thirdLeftDescription}</div>
-                    <img src={item_3} alt="#"/>
+                    <div className={style.img_position}> <img src={item_3} alt="#"/></div>
                     <div className={style.plus}><img src={plus} alt="#"/></div>
                 </div>
             </div>
@@ -174,7 +174,7 @@ function Slider() {
 
                     <div className={style.onClick_description_top_bottom}>
                         <div className={styleFourthItem}>{firstTopDescription} </div>
-                        <img src={item_4} alt="#"/>
+                        <div className={style.img_position}>  <img src={item_4} alt="#"/></div>
                     </div>
 
                     <div className={style.plus}><img src={plus} alt="#"/></div>
@@ -189,7 +189,7 @@ function Slider() {
 
                     <div className={style.onClick_description_top_bottom}>
 
-                        <img src={item_5} alt="#"/>
+                        <div className={style.img_position}> <img src={item_5} alt="#"/></div>
 
                         <div className={style.plus}><img src={plus} alt="#"/></div>
                         <div className={styleFifthItem}>Неспособность бегать,<br/> изменение походки</div>
@@ -201,7 +201,7 @@ function Slider() {
             <div className={style.slider_flex3}>
                 <div className={style.slider_item_6} onClick={onClickSixth}>
                     <div className={style.onClick_description}>
-                        <img src={item_6} alt="#"/>
+                        <div className={style.img_position}><img src={item_6} alt="#"/></div>
                         <div className={styleSixthItem}>{firstRightDescription}
                         </div>
                     </div>
@@ -210,7 +210,7 @@ function Slider() {
                 </div>
                 <div className={style.slider_item_7} onClick={onClickSeventh}>
                     <div className={style.onClick_description}>
-                        <img src={item_7} alt="#"/>
+                        <div className={style.img_position}><img src={item_7} alt="#"/></div>
                         <div className={styleSeventhItem}>{secondRightDescription}
                         </div>
                     </div>
@@ -219,7 +219,7 @@ function Slider() {
                 </div>
                 <div className={style.slider_item_8} onClick={onClickEighth}>
                     <div className={style.onClick_description}>
-                        <img src={item_8} alt="#"/>
+                        <div className={style.img_position}><img src={item_8} alt="#"/></div>
                         <div className={styleEighthItem}>{thirdRightDescription}
                         </div>
                     </div>

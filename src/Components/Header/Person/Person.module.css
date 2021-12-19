@@ -22,3 +22,21 @@ display: flex;
 .img{
 
 }
+@media (max-width: 1190px) {
+    .img img{
+        width: 250px;
+        height: 250px;
+    }
+    .title{
+
+        font-size: 26px;
+
+    }
+}
+@media(max-width: 450px){
+    .title{
+
+        font-size: 16px;
+
+    }
+}
